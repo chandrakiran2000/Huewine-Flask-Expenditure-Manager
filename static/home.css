@@ -1,0 +1,59 @@
+
+body{
+    margin: 0px;
+}
+.main-bg-card{
+    height: 99vh;
+    width: 100vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27j6d98nqz5TGDRznZbAgAM_W2RiBMDGVmg&s");
+    background-size: cover;
+}
+
+.amount-main-card{
+    margin-left: 155px;
+}
+
+.manager-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-main-card{
+    height: 55vh;
+    
+}
+
+
+.user-input{
+    min-width: 220px;
+}
+
+.history-card{
+    width: 800px;
+    height: 55vh;
+}
+
+.history-record-card{
+    overflow: auto;
+}
+.each-card-history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.date-text{
+    min-width: 60px;
+}
+.category-text{
+    text-align: start;
+    min-width: 150px;
+}
+.status-text{
+    min-width: 50px;
+}
+.amount-text{
+    min-width: 20px;
+}
